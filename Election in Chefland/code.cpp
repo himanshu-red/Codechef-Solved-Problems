@@ -9,7 +9,6 @@ int main()
         vector<int> v(3);
         for (auto &i : v)
             cin >> i;
-        bool nota = true;
         int index = 0;
         int max = v[0];
         for (int i = 1; i < 3; i++)
